@@ -39,7 +39,7 @@ function validation(){
         let error= document.getElementById("error")
 
         if(first_name.value == ""){
-            error.innerHTML= "Name cannot be empty" 
+            error.innerHTML= "Please fill this out" 
         
         }
         else{
@@ -48,7 +48,7 @@ function validation(){
             }
 
         if(last_name.value == ""){
-            error1.innerHTML= "Name cannot be empty"
+            error1.innerHTML= "Please fill this out"
 
         }
         else{
